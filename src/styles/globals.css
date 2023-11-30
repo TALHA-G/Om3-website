@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo1:hover {
+  animation: rotateHorizontal 1s infinite; 
+}
+
+@keyframes rotateHorizontal {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.checkbtn{
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  float: right;
+  margin-right: 40px;
+}
+  
+
+nav{
+ position:absolute;
+ width: 100%;
+ height: 100vh;
+ background-color: #131313;
+ left: 0px;
+ top: 95px;
+ z-index: 999;
+ transition: all 2s;
+ transition-delay: 2s;
+
+}
+
+ul li{
+ display: block;
+ line-height: 30px;
+ margin: 25px 0;
+}
+
+ul li a{
+ font-size: 26px;
+}
+ 
+
+ul li:hover{
+ background: none;
+ color: #BCED22;
+ cursor: pointer;
+}
+
+
+
+.position{
+ position: fixed;
+ background-color: #131313;
+ z-index: 1000;
+ width: 100%;
+ height: 14vh;
+}
+
+.post{
+ position: relative;
+ top: 200px;
+}
+
+.hover:hover{
+ color: #BCED22;
+}
+ 
+.family{
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+ display:block;
+ height: 75vh;
+ width: 80%;
+ color: aliceblue;
+ border-radius: 20px;
+}
+ 
+.column{
+ display:grid;
+ grid-template-columns: auto auto auto;
+ justify-content: center;
+ padding-left: 5rem ;
+ transition: 2s ease;
+ animation-delay: 2s;
+} 
+
+.colum{
+ display:grid;
+ grid-template-columns: auto auto auto;
+ justify-content: center;
+ 
+}  
+
+.animation {
+  animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* .ani{
+ transition: all 3s;
+ animation-delay: 2s;
+ z-index: 999;
+} */
+
+  
+  
+  
+
+ 
+ 
+
+ 
+ 
+
+
+  
+
+
+
+
+
+ 
+  
+
+
+    
+   
+   
+ 
+  
+  
+  
+ 
